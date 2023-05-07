@@ -253,7 +253,7 @@ team {
   display: flex;
   gap: 24px;
 }
-. .team-list {
+.team-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
 }
