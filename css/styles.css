@@ -64,12 +64,11 @@ img {
 .page-header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .page-navigation {
   display: flex;
   align-items: center;
-
-  /* column-gap: 70px; */
 }
 
 .logo {
@@ -77,7 +76,6 @@ img {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  /* display: flex; */
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -93,10 +91,9 @@ img {
 .logo:focus {
   color: var(--accent-color);
 }
-/* MENU */
+/*---------------------------------- MENU */
 .menu {
   display: flex;
-  /* align-items: center; */
   gap: 40px;
 }
 
@@ -107,23 +104,21 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
-  /* text-transform: uppercase; */
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
 
-/* adress */
+/* --------------------------------adress */
 .adress-menu {
   font-style: normal;
 }
 .adress {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  /* column-gap: 40px; */
   gap: 40px;
-  /* margin-left: auto; */
 }
 .contact-email-tel {
   font-weight: 400;
@@ -184,7 +179,7 @@ button {
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {
-  color: var(--accent-color);
+  color: #ffffff;
   background: #404bbf;
 }
 
