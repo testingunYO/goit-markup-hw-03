@@ -267,7 +267,9 @@ footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
+/* .footer-container {
+  width: 264px;
+} */
 .logo-footer {
   font-weight: 800;
   font-size: 18px;
@@ -289,6 +291,8 @@ footer {
 }
 .footer-text-color {
   color: #f4f4fd;
+  width: 264px;
+  font-family: var(--main-font-family);
 }
 
 /* portfolio */
