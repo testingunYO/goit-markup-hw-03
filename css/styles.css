@@ -306,8 +306,11 @@ footer {
   gap: 24px;
   margin-bottom: 72px;
 }
-.portfolio-list {
+.portfolio-list-two {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-btn-item {
   padding: 12px 24px;
