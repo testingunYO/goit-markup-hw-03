@@ -23,9 +23,9 @@ body {
   padding-right: 15px;
 }
 
-.container-main-title {
+/* .container-main-title {
   padding: 188px 0;
-}
+} */
 h1,
 h2,
 h3,
@@ -141,6 +141,7 @@ img {
 /* main */
 .class-title {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -163,7 +164,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -176,7 +177,9 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin: auto;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal-open-btn:hover,
