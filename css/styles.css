@@ -208,7 +208,7 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.title-skills {
+.title-skills-team {
   margin-bottom: 8px;
 }
 /*--------------------------- SECTION WORK */
@@ -270,6 +270,7 @@ button {
 footer {
   font-family: var(--secondary-font-family-family);
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
