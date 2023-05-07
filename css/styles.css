@@ -53,6 +53,7 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
+
 /* adress */
 .adress-menu {
   font-style: normal;
@@ -94,6 +95,8 @@ body {
   color: #ffffff;
 }
 
+/* BTN */
+
 button {
   cursor: pointer;
 }
@@ -118,6 +121,7 @@ button {
   color: var(--accent-color);
   background: #404bbf;
 }
+
 /* skills */
 .subtitle {
   font-weight: 700;
