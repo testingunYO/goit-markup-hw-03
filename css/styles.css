@@ -320,8 +320,6 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -335,4 +333,7 @@ footer {
   color: #ffffff;
   background: #404bbf;
   border: 1px solid transparent;
+}
+.portfolio-item-list {
+  width: calc((100% - 48px) / 3);
 }
