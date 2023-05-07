@@ -64,15 +64,15 @@ img {
 .page-navigation {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+
   /* column-gap: 70px; */
 }
 
 .menu {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .logo {
