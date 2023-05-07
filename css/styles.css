@@ -64,7 +64,6 @@ img {
 .page-navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 
   /* column-gap: 70px; */
 }
@@ -73,6 +72,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .logo {
