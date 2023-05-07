@@ -7,9 +7,6 @@
   --secondary-text-color-theme-light: #555555;
   --accent-color: #404bbf;
 }
-button {
-  cursor: pointer;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -95,6 +92,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+button {
+  cursor: pointer;
 }
 
 .modal-open-btn {
