@@ -207,8 +207,25 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.subtitle-skills {
   margin-bottom: 8px;
 }
+/*--------------------------- SECTION WORK */
+.section-work {
+  padding-bottom: 120px;
+}
+.subtitle-work {
+  margin-bottom: 72px;
+}
+.work {
+  display: flex;
+  gap: 24px;
+}
+.work-list {
+  width: calc((100% - 48px) / 3);
+}
+/* ------------------------------TITLE */
 .title {
   font-weight: 500;
   font-size: 20px;
