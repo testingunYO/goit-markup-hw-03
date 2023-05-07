@@ -253,6 +253,9 @@ button {
   display: flex;
   gap: 24px;
 }
+.team-info {
+  padding: 32px 16px;
+}
 .team-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
