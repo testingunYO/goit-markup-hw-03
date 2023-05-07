@@ -14,22 +14,78 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+/* HEADER */
+.page-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+  /* column-gap: 70px; */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+/* .adress-menu {
+  display: flex;
+} */
 .logo {
   font-family: var(--secondary-font-family-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-color {
@@ -57,6 +113,12 @@ body {
 /* adress */
 .adress-menu {
   font-style: normal;
+}
+.adress {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  /* margin-left: auto; */
 }
 .contact-email-tel {
   font-weight: 400;
