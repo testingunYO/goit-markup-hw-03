@@ -23,6 +23,9 @@ body {
   padding-right: 15px;
 }
 
+.container-main-title {
+  padding: 188px 0;
+}
 h1,
 h2,
 h3,
@@ -138,7 +141,6 @@ img {
 /* main */
 .class-title {
   background-color: #2e2f42;
-  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -169,6 +171,10 @@ button {
   flex-grow: 0;
   background: #4d5ae5;
   font-family: var(--main-font-family);
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .modal-open-btn:hover,
