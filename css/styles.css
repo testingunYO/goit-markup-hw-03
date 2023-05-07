@@ -189,6 +189,9 @@ button {
 }
 
 /* skills */
+.section-skills {
+  padding-bottom: 120px;
+}
 .subtitle {
   font-weight: 700;
   font-size: 36px;
