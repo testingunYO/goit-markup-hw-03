@@ -208,14 +208,14 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.subtitle-skills {
+.title-skills {
   margin-bottom: 8px;
 }
 /*--------------------------- SECTION WORK */
 .section-work {
   padding-bottom: 120px;
 }
-.subtitle-work {
+.subtitle-work-team {
   margin-bottom: 72px;
 }
 .work {
@@ -244,12 +244,18 @@ button {
   /* SLATE */
   color: #434455;
 }
-
+/* ------------------SECTION TEAM */
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-.team-list {
+team {
+  display: flex;
+  gap: 24px;
+}
+. .team-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .team-description {
   text-align: center;
